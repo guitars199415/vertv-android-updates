@@ -1,15 +1,15 @@
 {
-    "platform":  "android",
-    "app":  "VerTv",
-    "versionName":  "1.2.5",
-    "versionCode":  19,
-    "required":  false,
-    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/v1.2.5/vertv-v1.2.5-update.apk",
-    "sha256":  "f58f94add54c55cf4bdf883aa1fb3f9aa5f40499a5a8a6fca17e5b1e11a846ca",
-    "packageName":  "com.vertv.app",
-    "fileSizeBytes":  32311792,
-    "releaseNotes":  "VerTv dedicated public update-channel validation.",
-    "releaseNotesEs":  "Validación del canal público dedicado de actualizaciones de VerTv.",
-    "createdAt":  "2026-08-12T20:11:06Z",
-    "publishedAt":  "2026-08-12T20:11:06Z"
+  "platform": "android",
+  "app": "VerTv",
+  "versionName": "1.2.8",
+  "versionCode": 22,
+  "required": false,
+  "apkUrl": "https://github.com/guitars199415/vertv-android-updates/releases/download/v1.2.8/vertv-v1.2.8.apk",
+  "sha256": "3ed80bbc82c78578c16791adcac2e165539873ff7dd7c20dd837a7cba02031e9",
+  "packageName": "com.vertv.app",
+  "fileSizeBytes": 32311792,
+  "releaseNotes": "VerTv 1.2.8 update mechanism validation release.",
+  "releaseNotesEs": "Versión 1.2.8 para validación del sistema de actualización.",
+  "createdAt": "2026-08-12T23:48:05Z",
+  "publishedAt": "2026-08-12T23:48:05Z"
 }
