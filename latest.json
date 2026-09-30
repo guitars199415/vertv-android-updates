@@ -1,15 +1,15 @@
 {
   "platform": "android",
   "app": "VerTv",
-  "versionName": "1.3.0",
-  "versionCode": 24,
+  "versionName": "1.3.1",
+  "versionCode": 25,
   "required": true,
-  "apkUrl": "https://github.com/guitars199415/vertv-android-updates/releases/download/v1.3.0/vertv-v1.3.0-update.apk",
-  "sha256": "00cc4616a628a72510bf51288886479deb984254414833695cc7e93fb8ba860e",
+  "apkUrl": "https://github.com/guitars199415/vertv-android-updates/releases/download/v1.3.1/vertv-v1.3.1-update.apk",
+  "sha256": "66bdd12ce506b6e4a6c49d268c560b8809674627ffcd820605f2bccaeab4e378",
   "packageName": "com.vertv.app",
-  "fileSizeBytes": 7637760,
-  "releaseNotes": "Fixes TV episode availability so transient playback failures do not remove published episodes. Improves playback failover and account reliability.",
-  "releaseNotesEs": "Corrige la disponibilidad de episodios para que fallas temporales de reproduccion no eliminen episodios publicados. Mejora la recuperacion de reproduccion y la confiabilidad de la cuenta.",
-  "sourceCommit": "2dcdd6a162f1320e14041db0fceeec39c9f6dce8",
-  "publishedAt": "2026-09-30T01:02:15Z"
+  "fileSizeBytes": 7670528,
+  "releaseNotes": "Mandatory update validation release. Prevents transient playback failures from removing published TV episodes, improves playback failover and account reliability, and fixes production startup reliability.",
+  "releaseNotesEs": "Actualizacion obligatoria de validacion. Evita que fallas temporales de reproduccion eliminen episodios publicados, mejora la recuperacion de reproduccion y la confiabilidad de la cuenta, y corrige el inicio de la version de produccion.",
+  "sourceCommit": "29fc1a57231c007f74e6409223c6d6c9915d0976",
+  "publishedAt": "2026-09-30T01:35:31Z"
 }
