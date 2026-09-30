@@ -1,15 +1,15 @@
 {
     "platform":  "android",
     "app":  "VerTv",
-    "versionName":  "1.3.0",
+    "versionName":  "1.3.0-debug",
     "versionCode":  24,
     "required":  true,
-    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/v1.3.0/vertv-v1.3.0-update.apk",
-    "sha256":  "00cc4616a628a72510bf51288886479deb984254414833695cc7e93fb8ba860e",
+    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/v1.3.0/vertv-v1.3.0-debug-update.apk",
+    "sha256":  "d0e7b9607ae1be28bb2c2a205988a595ef7e74c5ffa16ad0fdea0698a71cd855",
     "packageName":  "com.vertv.app",
-    "fileSizeBytes":  7637760,
-    "releaseNotes":  "Fixes TV episode availability so transient playback failures do not remove published episodes. Improves playback failover and account reliability.",
-    "releaseNotesEs":  "Corrige la disponibilidad de episodios para que fallas temporales de reproduccion no eliminen episodios publicados. Mejora la recuperacion de reproduccion y la confiabilidad de la cuenta.",
+    "fileSizeBytes":  35858411,
+    "releaseNotes":  "Mandatory update test build signed to match the currently installed VerTv debug certificate. Fixes TV episode availability and playback failover behavior.",
+    "releaseNotesEs":  "Compilacion de prueba de actualizacion obligatoria firmada para coincidir con el certificado de depuracion instalado. Corrige la disponibilidad de episodios y la recuperacion de reproduccion.",
     "sourceCommit":  "2dcdd6a162f1320e14041db0fceeec39c9f6dce8",
-    "publishedAt":  "2026-09-30T01:02:15Z"
+    "publishedAt":  "2026-09-30T01:13:08Z"
 }
