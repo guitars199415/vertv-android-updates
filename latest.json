@@ -1,15 +1,15 @@
-{
-  "platform": "android",
-  "app": "VerTv",
-  "versionName": "1.3.2",
-  "versionCode": 26,
-  "required": true,
-  "apkUrl": "https://github.com/guitars199415/vertv-android-updates/releases/download/v1.3.2/vertv-v1.3.2-update.apk",
-  "sha256": "26c8ce0fa1018d7ac2674cbc3f5063f436589b6f5a7987f87fd627198db35f6d",
-  "packageName": "com.vertv.app",
-  "fileSizeBytes": 7653664,
-  "releaseNotes": "Mandatory reliability update. Preserves published TV episodes during transient playback failures, fixes production startup reliability, and replaces the legacy APK handoff with Android PackageInstaller sessions for reliable in-app updates.",
-  "releaseNotesEs": "Actualizacion obligatoria de confiabilidad. Conserva los episodios publicados durante fallas temporales de reproduccion, corrige el inicio de produccion y reemplaza el instalador APK anterior con sesiones de Android PackageInstaller para actualizaciones confiables.",
-  "sourceCommit": "9466587f918b8708ee820cc38d05607cd54d0103",
-  "publishedAt": "2026-09-30T02:06:22Z"
+﻿{
+    "platform":  "android",
+    "app":  "VerTv",
+    "versionName":  "0.9.1",
+    "versionCode":  901,
+    "required":  true,
+    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/v0.9.1/vertv-v0.9.1-update.apk",
+    "sha256":  "6c7d481a5b4b77ac88411b89ec443eb093a9f4d90184bdc704602fe20b3b076a",
+    "packageName":  "com.vertv.app",
+    "fileSizeBytes":  7686308,
+    "releaseNotes":  "Mandatory VerTv pre-release update with the latest validated Android and Android TV reliability, offline download, profile, My List, and playback improvements.",
+    "releaseNotesEs":  "Actualizacion obligatoria de preestreno de VerTv con las mejoras validadas mas recientes de Android y Android TV, descargas sin conexion, perfiles, Mi Lista y reproduccion.",
+    "sourceCommit":  "83e8c6154b5ac88fff60a2b9249da7584f6cf75d",
+    "publishedAt":  "2026-10-05T01:16:19Z"
 }
