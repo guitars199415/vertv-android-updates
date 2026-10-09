@@ -1,15 +1,15 @@
 {
     "platform":  "android",
     "app":  "VerTv",
-    "versionName":  "0.9.3",
-    "versionCode":  903,
+    "versionName":  "0.9.4",
+    "versionCode":  904,
     "required":  true,
-    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/v0.9.3/vertv-v0.9.3-update.apk",
-    "sha256":  "d05f0ca5fe13d52a1dacff05e5dae113cef2bbfc8f6c7d23278acab82c5cb24c",
+    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/v0.9.4/vertv-v0.9.4-update.apk",
+    "sha256":  "ef88514e3b0d2133158ea277c170fdcbcc8f261d5d5c9677a73d8993affdfaec",
     "packageName":  "com.vertv.app",
-    "fileSizeBytes":  7669924,
-    "releaseNotes":  "Mandatory VerTv update. Customer playback now stays in the native VerTv player, with provider bootstrap hidden behind native Media3 handoff and failover. Audio and subtitle controls are handled inside the native player.",
-    "releaseNotesEs":  "Actualización obligatoria de VerTv. La reproducción del cliente ahora permanece en el reproductor nativo de VerTv, con la preparación del proveedor oculta detrás de Media3 y servidores de respaldo. Los controles de audio y subtítulos están dentro del reproductor nativo.",
-    "sourceCommit":  "4f9e9121928c2ee0a78ba5e81b802d21e7b0439e",
-    "publishedAt":  "2026-10-09T12:30:09Z"
+    "fileSizeBytes":  7702732,
+    "releaseNotes":  "Improved the mandatory update flow on Samsung devices with guided security settings, bilingual instructions, and automatic retry after returning to VerTv.",
+    "releaseNotesEs":  "Mejoramos el flujo de actualización obligatoria en dispositivos Samsung con guía de seguridad, instrucciones bilingües y reintento automático al regresar a VerTv.",
+    "sourceCommit":  "9bb785e9c6fbe570d4e452bbd0ca17548ee7d59f",
+    "publishedAt":  "2026-10-09T19:06:24Z"
 }
