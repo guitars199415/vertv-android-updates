@@ -1,15 +1,15 @@
 {
     "platform":  "android",
     "app":  "VerTv",
-    "versionName":  "0.9.4",
-    "versionCode":  904,
+    "versionName":  "0.9.5",
+    "versionCode":  905,
     "required":  true,
-    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/v0.9.4/vertv-v0.9.4-update.apk",
-    "sha256":  "ef88514e3b0d2133158ea277c170fdcbcc8f261d5d5c9677a73d8993affdfaec",
+    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/v0.9.5/vertv-v0.9.5-update.apk",
+    "sha256":  "07ab6c8c3c0f630418d7e6e2c509c615150829d8b75d874c3b2fcb4e34008066",
     "packageName":  "com.vertv.app",
     "fileSizeBytes":  7702732,
-    "releaseNotes":  "Improved the mandatory update flow on Samsung devices with guided security settings, bilingual instructions, and automatic retry after returning to VerTv.",
-    "releaseNotesEs":  "Mejoramos el flujo de actualización obligatoria en dispositivos Samsung con guía de seguridad, instrucciones bilingües y reintento automático al regresar a VerTv.",
-    "sourceCommit":  "9bb785e9c6fbe570d4e452bbd0ca17548ee7d59f",
-    "publishedAt":  "2026-10-09T19:06:24Z"
+    "releaseNotes":  "Fixed the repeated mandatory-update loop after installation and improved update reliability.",
+    "releaseNotesEs":  "Corregimos el ciclo repetido de actualización obligatoria después de instalar y mejoramos la confiabilidad de las actualizaciones.",
+    "sourceCommit":  "15c17297c83f8c5b975dca075c4d4af1ed77c2d6",
+    "publishedAt":  "2026-10-09T20:13:35Z"
 }
