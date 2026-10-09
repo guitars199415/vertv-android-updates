@@ -1,15 +1,15 @@
 {
     "platform":  "android",
     "app":  "VerTv",
-    "versionName":  "0.9.1",
-    "versionCode":  901,
+    "versionName":  "0.9.2",
+    "versionCode":  902,
     "required":  true,
-    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/v0.9.1/vertv-v0.9.1-update.apk",
-    "sha256":  "6c7d481a5b4b77ac88411b89ec443eb093a9f4d90184bdc704602fe20b3b076a",
+    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/v0.9.2/vertv-v0.9.2-update.apk",
+    "sha256":  "c97d75acd6d503850c9a62757681bd71cce8d5f283cf7a8980e61cb93c33c471",
     "packageName":  "com.vertv.app",
-    "fileSizeBytes":  7686308,
-    "releaseNotes":  "Mandatory VerTv pre-release update with the latest validated Android and Android TV reliability, offline download, profile, My List, and playback improvements.",
-    "releaseNotesEs":  "Actualizacion obligatoria de preestreno de VerTv con las mejoras validadas mas recientes de Android y Android TV, descargas sin conexion, perfiles, Mi Lista y reproduccion.",
-    "sourceCommit":  "83e8c6154b5ac88fff60a2b9249da7584f6cf75d",
-    "publishedAt":  "2026-10-05T01:16:19Z"
+    "fileSizeBytes":  7702692,
+    "releaseNotes":  "Mandatory VerTv update with the latest native playback, bilingual English/Spanish routing, source failover, and reliability improvements.",
+    "releaseNotesEs":  "Actualización obligatoria de VerTv con las mejoras más recientes de reproducción nativa, cambio entre inglés y español, servidores de respaldo y estabilidad.",
+    "sourceCommit":  "4f9e9121928c2ee0a78ba5e81b802d21e7b0439e",
+    "publishedAt":  "2026-10-09T11:36:27Z"
 }
