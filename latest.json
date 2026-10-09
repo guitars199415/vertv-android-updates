@@ -1,15 +1,15 @@
 {
     "platform":  "android",
     "app":  "VerTv",
-    "versionName":  "0.9.5",
-    "versionCode":  905,
+    "versionName":  "0.9.6",
+    "versionCode":  906,
     "required":  true,
-    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/v0.9.5/vertv-v0.9.5-update.apk",
-    "sha256":  "07ab6c8c3c0f630418d7e6e2c509c615150829d8b75d874c3b2fcb4e34008066",
+    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/v0.9.6/vertv-v0.9.6-update.apk",
+    "sha256":  "fb5eecd809c1061874994782a9154e6bb3c7e2d9bcfa7197d9319040144d8843",
     "packageName":  "com.vertv.app",
-    "fileSizeBytes":  7702732,
-    "releaseNotes":  "Fixed the repeated mandatory-update loop after installation and improved update reliability.",
-    "releaseNotesEs":  "Corregimos el ciclo repetido de actualización obligatoria después de instalar y mejoramos la confiabilidad de las actualizaciones.",
-    "sourceCommit":  "15c17297c83f8c5b975dca075c4d4af1ed77c2d6",
-    "publishedAt":  "2026-10-09T20:13:35Z"
+    "fileSizeBytes":  7686348,
+    "releaseNotes":  "Fixes playback-language routing, simplifies language settings, and includes the mandatory-update recovery fixes.",
+    "releaseNotesEs":  "Corrige el enrutamiento de idioma de reproducción, simplifica los ajustes de idioma e incluye las correcciones de recuperación de actualización obligatoria.",
+    "sourceCommit":  "12a5471118b1ff3671e82fb00fcd983068bf0c04",
+    "publishedAt":  "2026-10-09T21:04:31Z"
 }
