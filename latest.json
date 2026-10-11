@@ -1,15 +1,15 @@
 {
     "platform":  "android",
     "app":  "VerTv",
-    "versionName":  "0.9.23",
-    "versionCode":  923,
+    "versionName":  "0.9.24",
+    "versionCode":  924,
     "required":  true,
-    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/v0.9.23/vertv-v0.9.23-update.apk",
-    "sha256":  "e07ddb371878a448dcde47cf03dbb3c4203a01fd703cbdc2d344c52b72d814a5",
+    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/v0.9.24/vertv-v0.9.24-update.apk",
+    "sha256":  "b8de9872d35c9e775e6cf6e2a611700718c87d6d7e8667d3ecd299d9ba53fdb4",
     "packageName":  "com.vertv.app",
-    "fileSizeBytes":  7735500,
-    "releaseNotes":  "Mandatory VerTv 0.9.23 update. Fixes the audio-language state bug so Settings reflects the language actually playing, preserves English/Spanish source preference ordering, prevents unnecessary reloads when the selected language is already active, and rejects authoritative wrong-language route results.",
-    "releaseNotesEs":  "Actualización obligatoria de VerTv 0.9.23. Corrige el estado del idioma de audio para que Configuración muestre el idioma que realmente se está reproduciendo, conserva el orden de preferencia entre inglés y español, evita recargas innecesarias y rechaza rutas con un idioma incorrecto cuando la fuente lo confirma.",
-    "sourceCommit":  "5c2c6c25a100049434071a1028426bb09515aad4",
-    "publishedAt":  "2026-10-11T01:28:02Z"
+    "fileSizeBytes":  7751884,
+    "releaseNotes":  "Mandatory VerTv 0.9.24 update. Makes English and Spanish audio switching faster and more reliable by pre-resolving language-qualified playback routes, switching Media3 audio tracks in place when available, preserving playback position during source-level changes, keeping the current stream playing until the alternate is ready, and excluding unsupported embed routes from explicit audio changes.",
+    "releaseNotesEs":  "Actualización obligatoria de VerTv 0.9.24. Hace más rápido y confiable el cambio entre audio en inglés y español: prepara rutas de reproducción verificadas por idioma, cambia pistas de Media3 sin recargar cuando es posible, conserva la posición al cambiar de fuente, mantiene la reproducción actual hasta que la alternativa esté lista y excluye rutas embed no compatibles durante cambios explícitos de audio.",
+    "sourceCommit":  "d6b28875c2b59a57f445034aee38e6b12050a799",
+    "publishedAt":  "2026-10-11T02:21:30Z"
 }
