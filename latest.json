@@ -1,15 +1,15 @@
 {
     "platform":  "android",
     "app":  "VerTv",
-    "versionName":  "0.9.22",
-    "versionCode":  922,
+    "versionName":  "0.9.23",
+    "versionCode":  923,
     "required":  true,
-    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/v0.9.22/vertv-v0.9.22-update.apk",
-    "sha256":  "8d77a90079ccd87525d070850def20b96367eece00d51251543347c4d730489e",
+    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/v0.9.23/vertv-v0.9.23-update.apk",
+    "sha256":  "e07ddb371878a448dcde47cf03dbb3c4203a01fd703cbdc2d344c52b72d814a5",
     "packageName":  "com.vertv.app",
     "fileSizeBytes":  7735500,
-    "releaseNotes":  "Mandatory VerTv 0.9.22 update with zero-tutorial UX fixes, clearer playback recovery, request status, Continue Watching labels, navigation, accessibility, localization, and download polish.",
-    "releaseNotesEs":  "Actualización obligatoria de VerTv 0.9.22 con mejoras de experiencia sin tutorial, recuperación de reproducción, estado de solicitudes, Continuar viendo, navegación, accesibilidad, idioma y descargas.",
-    "sourceCommit":  "ceb7657cc10956245c86e17d05539ef5fe0140f3",
-    "publishedAt":  "2026-10-10T22:59:03Z"
+    "releaseNotes":  "Mandatory VerTv 0.9.23 update. Fixes the audio-language state bug so Settings reflects the language actually playing, preserves English/Spanish source preference ordering, prevents unnecessary reloads when the selected language is already active, and rejects authoritative wrong-language route results.",
+    "releaseNotesEs":  "Actualización obligatoria de VerTv 0.9.23. Corrige el estado del idioma de audio para que Configuración muestre el idioma que realmente se está reproduciendo, conserva el orden de preferencia entre inglés y español, evita recargas innecesarias y rechaza rutas con un idioma incorrecto cuando la fuente lo confirma.",
+    "sourceCommit":  "5c2c6c25a100049434071a1028426bb09515aad4",
+    "publishedAt":  "2026-10-11T01:28:02Z"
 }
