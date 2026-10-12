@@ -1,15 +1,15 @@
 {
     "platform":  "android",
     "app":  "VerTv",
-    "versionName":  "0.9.24",
-    "versionCode":  924,
+    "versionName":  "0.9.41",
+    "versionCode":  941,
     "required":  true,
-    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/v0.9.24/vertv-v0.9.24-update.apk",
-    "sha256":  "b8de9872d35c9e775e6cf6e2a611700718c87d6d7e8667d3ecd299d9ba53fdb4",
+    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/v0.9.41/vertv-v0.9.41-update.apk",
+    "sha256":  "6f38246ad235e49bce250fc60b9e3894cf6f9aefa78b1ec09806dd44428da924",
     "packageName":  "com.vertv.app",
-    "fileSizeBytes":  7751884,
-    "releaseNotes":  "Mandatory VerTv 0.9.24 update. Makes English and Spanish audio switching faster and more reliable by pre-resolving language-qualified playback routes, switching Media3 audio tracks in place when available, preserving playback position during source-level changes, keeping the current stream playing until the alternate is ready, and excluding unsupported embed routes from explicit audio changes.",
-    "releaseNotesEs":  "Actualización obligatoria de VerTv 0.9.24. Hace más rápido y confiable el cambio entre audio en inglés y español: prepara rutas de reproducción verificadas por idioma, cambia pistas de Media3 sin recargar cuando es posible, conserva la posición al cambiar de fuente, mantiene la reproducción actual hasta que la alternativa esté lista y excluye rutas embed no compatibles durante cambios explícitos de audio.",
-    "sourceCommit":  "d6b28875c2b59a57f445034aee38e6b12050a799",
-    "publishedAt":  "2026-10-11T02:21:30Z"
+    "fileSizeBytes":  7719076,
+    "releaseNotes":  "Improves on-demand playback reliability. Verified native sources are now preferred correctly, remembered audio settings no longer block the initial source pool, silent failover has more candidates, and the native player no longer leaves the loading screen over confirmed playback.",
+    "releaseNotesEs":  "Mejora la confiabilidad de la reproducción bajo demanda. Las fuentes nativas verificadas ahora se priorizan correctamente, la configuración de audio recordada ya no bloquea las fuentes iniciales, el cambio automático entre fuentes tiene más opciones y el reproductor nativo ya no deja la pantalla de carga sobre una reproducción confirmada.",
+    "sourceCommit":  "db083efbab9f924fbe9b8b7c4d9d2fc1e6176c27",
+    "publishedAt":  "2026-10-12T23:32:55Z"
 }
