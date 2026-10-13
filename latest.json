@@ -1,15 +1,14 @@
 {
     "platform":  "android",
     "app":  "VerTv",
-    "versionName":  "0.9.41",
-    "versionCode":  941,
+    "versionName":  "0.9.43",
+    "versionCode":  943,
     "required":  true,
-    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/v0.9.41/vertv-v0.9.41-update.apk",
-    "sha256":  "6f38246ad235e49bce250fc60b9e3894cf6f9aefa78b1ec09806dd44428da924",
+    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/v0.9.43/app-release.apk",
+    "sha256":  "998d3a3647197e5a031579d2a04d07ceb3920d9e2564def57490395692a94466",
     "packageName":  "com.vertv.app",
     "fileSizeBytes":  7719076,
-    "releaseNotes":  "Improves on-demand playback reliability. Verified native sources are now preferred correctly, remembered audio settings no longer block the initial source pool, silent failover has more candidates, and the native player no longer leaves the loading screen over confirmed playback.",
-    "releaseNotesEs":  "Mejora la confiabilidad de la reproducción bajo demanda. Las fuentes nativas verificadas ahora se priorizan correctamente, la configuración de audio recordada ya no bloquea las fuentes iniciales, el cambio automático entre fuentes tiene más opciones y el reproductor nativo ya no deja la pantalla de carga sobre una reproducción confirmada.",
-    "sourceCommit":  "db083efbab9f924fbe9b8b7c4d9d2fc1e6176c27",
-    "publishedAt":  "2026-10-12T23:32:55Z"
+    "releaseNotes":  "Native-player update: separates in-stream English/Spanish audio track selection from switching to another verified source. This required test build is not yet certified for all titles; some movies can still remain on Loading video. PeliApi extraction is not active.",
+    "releaseNotesEs":  "Actualización del reproductor: separa la selección de pistas de audio en inglés/español del cambio a otra fuente verificada. Esta versión de prueba obligatoria aún no está certificada para todas las películas; algunos títulos pueden seguir cargando sin reproducirse. El motor de extracción PeliApi no está activo.",
+    "publishedAt":  "2026-10-13T03:33:29Z"
 }
