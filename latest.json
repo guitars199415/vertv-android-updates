@@ -1,14 +1,14 @@
 {
-    "platform":  "android",
-    "app":  "VerTv",
-    "versionName":  "0.9.69",
-    "versionCode":  969,
-    "required":  true,
-    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/v0.9.69/app-release.apk",
-    "sha256":  "998501e1dcc90c847b0a4a562298d672bb415ac913521086c05236f5385d6e21",
-    "packageName":  "com.vertv.app",
-    "fileSizeBytes":  7735460,
-    "releaseNotes":  "Playback improvements, smoother audio options, and general reliability fixes.",
-    "releaseNotesEs":  "Mejoras de reproducciÃ³n, opciones de audio y estabilidad general.",
-    "publishedAt":  "2026-10-15T04:09:28Z"
+  "platform": "android",
+  "app": "VerTv",
+  "versionName": "0.9.69",
+  "versionCode": 969,
+  "required": true,
+  "apkUrl": "https://github.com/guitars199415/vertv-android-updates/releases/download/v0.9.69/app-release.apk",
+  "sha256": "998501e1dcc90c847b0a4a562298d672bb415ac913521086c05236f5385d6e21",
+  "packageName": "com.vertv.app",
+  "fileSizeBytes": 7735460,
+  "releaseNotes": "Playback improvements, smoother audio options, and general reliability fixes.",
+  "releaseNotesEs": "Mejoras de reproducción, opciones de audio y estabilidad general.",
+  "publishedAt": "2026-10-15T04:09:28Z"
 }
