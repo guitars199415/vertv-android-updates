@@ -8,7 +8,7 @@
     "sha256":  "998501e1dcc90c847b0a4a562298d672bb415ac913521086c05236f5385d6e21",
     "packageName":  "com.vertv.app",
     "fileSizeBytes":  7735460,
-    "releaseNotes":  "Mandatory native Media3 source-priority update. Eligible direct Xtream/Bunny sources now start before slower embed backups. Supabase uses attributed playback history to rank eligible native sources. Existing English and Spanish audio controls and playback failover are preserved where source tracks are available. Emulator QA passed Rosario Tijeras S5:E1 with native 1280x720 video, 8 seconds advancement and about 11 seconds startup. Title audio languages are not all independently verified; intermittent HTTP 403 on some transitions remains under investigation.",
-    "releaseNotesEs":  "Actualizacion obligatoria del reproductor nativo Media3. Las fuentes directas aptas de Xtream/Bunny tienen prioridad sobre reproductores incrustados lentos. Supabase usa resultados reales de reproduccion para ordenar las fuentes nativas disponibles. Se conservan los controles de audio en espanol e ingles y las fuentes de respaldo, siempre que cada titulo ofrezca esos idiomas. Rosario Tijeras T5:E1 paso la prueba en emulador con video 1280x720, 8 segundos de avance y un arranque de unos 11 segundos. Algunos idiomas no estan verificados; sigue en investigacion un error HTTP 403 ocasional.",
+    "releaseNotes":  "Playback improvements, smoother audio options, and general reliability fixes.",
+    "releaseNotesEs":  "Mejoras de reproducciÃ³n, opciones de audio y estabilidad general.",
     "publishedAt":  "2026-10-15T04:09:28Z"
 }
