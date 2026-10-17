@@ -1,14 +1,14 @@
 {
-  "platform": "android",
-  "app": "VerTv",
-  "versionName": "0.9.69",
-  "versionCode": 969,
-  "required": true,
-  "apkUrl": "https://github.com/guitars199415/vertv-android-updates/releases/download/v0.9.69/app-release.apk",
-  "sha256": "998501e1dcc90c847b0a4a562298d672bb415ac913521086c05236f5385d6e21",
-  "packageName": "com.vertv.app",
-  "fileSizeBytes": 7735460,
-  "releaseNotes": "Playback improvements, smoother audio options, and general reliability fixes.",
-  "releaseNotesEs": "Mejoras de reproducción, opciones de audio y estabilidad general.",
-  "publishedAt": "2026-10-15T04:09:28Z"
+    "platform":  "android",
+    "app":  "VerTv",
+    "versionName":  "0.9.72",
+    "versionCode":  972,
+    "required":  true,
+    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/v0.9.72/app-release.apk",
+    "sha256":  "644d01490294666d5a1da333d3f40e607dc19b139900615bdc0bbfbdadf16e7e",
+    "packageName":  "com.vertv.app",
+    "fileSizeBytes":  7751844,
+    "releaseNotes":  "Mandatory testing update: Supabase-backed queued/running request progress, guarded native Media3 playback and fallback, improved bilingual route handling, and catalog visibility safeguards. All 355 Android unit tests and signed APK validation passed, with emulator launch tested. The Founder Spanish playback and full automated spoken-language verification remain under review. Content Automation remains paused for stability.",
+    "releaseNotesEs":  "Actualizacion obligatoria de prueba: progreso real de solicitudes, fuentes nativas Media3 y respaldo, control de audio ingles/espanol y catalogo. Aprobo 355 pruebas unitarias y se probo en el emulador. El audio espanol de The Founder y la deteccion automatica de idioma hablado siguen pendientes de verificacion. La automatizacion de contenido continua pausada por estabilidad.",
+    "publishedAt":  "2026-10-17T13:29:13Z"
 }
