@@ -1,15 +1,15 @@
 {
     "platform":  "android",
     "app":  "VerTv",
-    "versionName":  "0.9.75",
-    "versionCode":  975,
+    "versionName":  "0.9.76",
+    "versionCode":  976,
     "required":  true,
-    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/v0.9.75/vertv-v0.9.75-update.apk",
-    "sha256":  "d0ac65b6f292ce11ef188b54649670484fe21b479515763e22ddb67685921695",
+    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/v0.9.76/vertv-v0.9.76-update.apk",
+    "sha256":  "a03c61e27a09f81be40c02885d43f2245d566683632b75bbbfb25403c5997559",
     "packageName":  "com.vertv.app",
-    "fileSizeBytes":  7819112,
-    "releaseNotes":  "Mandatory VerTv 0.9.75 update: preserves the premium mobile featured carousel from 0.9.74 and refreshes the separate VerTv Top 10 This Week shelf with large white outlined ranking numbers overlaid on poster artwork. Top 10 remains manually swipeable horizontally, no auto-advance and no See All. No playback, backend, or catalog data migration. 373 Android unit tests passed and signed APK verified. Signed-in emulator Home visual QA, physical Samsung installation, and bilingual playback QA remain pending.",
-    "releaseNotesEs":  "Actualizacion obligatoria VerTv 0.9.75: mantiene el carrusel principal premium de 0.9.74 y rediseña por separado Top 10 de VerTv esta semana con numeros grandes de contorno blanco superpuestos a los carteles. Top 10 se desplaza horizontalmente con el dedo, sin avance automatico ni Ver todo. Sin migraciones de base de datos ni cambios del reproductor. Pasaron 373 pruebas unitarias y la firma del APK fue verificada. Faltan pruebas visuales de Inicio con sesion, instalacion fisica en Samsung y reproduccion bilingue.",
-    "sourceCommit":  "ad76344e667c2b026065cd79e04b7761c43555d1",
-    "publishedAt":  "2026-10-18T20:44:41Z"
+    "fileSizeBytes":  7819108,
+    "releaseNotes":  "Mandatory VerTv 0.9.76: subtle left-and-bottom poster fade in the separate horizontally swipeable Top 10 shelf, improving contrast behind the white outlined ranking numbers while preserving full-color artwork. Featured carousel, content routes, ranking, and playback are unchanged. 373 Android unit tests and two targeted emulator Compose tests passed (fade contrast and manual swipe/navigation). Isolated local artwork was used for UI QA; signed-in real-catalog Home and physical Samsung playback are pending.",
+    "releaseNotesEs":  "Actualizacion obligatoria VerTv 0.9.76: suave degradado oscuro a la izquierda y abajo de los carteles en Top 10, destacando los numeros blancos con contorno sin quitar viveza a las imagenes. No cambia el carrusel principal, las rutas, el orden ni la reproduccion. Pasaron 373 pruebas unitarias y dos pruebas de interfaz Compose en el emulador (contraste y desplazamiento manual). Las capturas usaron imagenes locales de prueba; falta comprobar Inicio con sesion, catalogo real y Samsung fisico.",
+    "sourceCommit":  "61f7e90e920c7b16c840ec94d29594af2ba791d5",
+    "publishedAt":  "2026-10-18T21:40:40Z"
 }
