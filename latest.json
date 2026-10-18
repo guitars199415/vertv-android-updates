@@ -1,15 +1,15 @@
 {
-  "platform": "android",
-  "app": "VerTv",
-  "versionName": "0.9.74",
-  "versionCode": 974,
-  "required": true,
-  "apkUrl": "https://github.com/guitars199415/vertv-android-updates/releases/download/v0.9.74/vertv-v0.9.74-update.apk",
-  "sha256": "56bfee64ff717b21bb91fd66e1da825d1db10bdfd59a43667a9a7559c5172090",
-  "packageName": "com.vertv.app",
-  "fileSizeBytes": 7819108,
-  "releaseNotes": "Premium mobile showcase with cinematic artwork, compact catalog metadata and profile My List controls. 373 unit tests and 6 Compose component tests passed. Full signed-in Home visual acceptance, live carousel interactions, bilingual playback and physical Samsung QA remain pending. Mandatory testing update published at the owner's request.",
-  "releaseNotesEs": "Carrusel premium con arte cinematografico, metadatos compactos y controles de Mi lista por perfil. Pasaron 373 pruebas unitarias y 6 pruebas de componentes Compose. Siguen pendientes la revision visual de Inicio con sesion, las interacciones reales del carrusel, la reproduccion bilingue y las pruebas en Samsung fisico. Actualizacion de prueba obligatoria publicada a peticion del propietario.",
-  "sourceCommit": "d1b4753382d91b2d9c75fa8fad097b052b7ca593",
-  "publishedAt": "2026-10-18T19:37:23.326681Z"
+    "platform":  "android",
+    "app":  "VerTv",
+    "versionName":  "0.9.75",
+    "versionCode":  975,
+    "required":  true,
+    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/v0.9.75/vertv-v0.9.75-update.apk",
+    "sha256":  "d0ac65b6f292ce11ef188b54649670484fe21b479515763e22ddb67685921695",
+    "packageName":  "com.vertv.app",
+    "fileSizeBytes":  7819112,
+    "releaseNotes":  "Mandatory VerTv 0.9.75 update: preserves the premium mobile featured carousel from 0.9.74 and refreshes the separate VerTv Top 10 This Week shelf with large white outlined ranking numbers overlaid on poster artwork. Top 10 remains manually swipeable horizontally, no auto-advance and no See All. No playback, backend, or catalog data migration. 373 Android unit tests passed and signed APK verified. Signed-in emulator Home visual QA, physical Samsung installation, and bilingual playback QA remain pending.",
+    "releaseNotesEs":  "Actualizacion obligatoria VerTv 0.9.75: mantiene el carrusel principal premium de 0.9.74 y rediseña por separado Top 10 de VerTv esta semana con numeros grandes de contorno blanco superpuestos a los carteles. Top 10 se desplaza horizontalmente con el dedo, sin avance automatico ni Ver todo. Sin migraciones de base de datos ni cambios del reproductor. Pasaron 373 pruebas unitarias y la firma del APK fue verificada. Faltan pruebas visuales de Inicio con sesion, instalacion fisica en Samsung y reproduccion bilingue.",
+    "sourceCommit":  "ad76344e667c2b026065cd79e04b7761c43555d1",
+    "publishedAt":  "2026-10-18T20:44:41Z"
 }
