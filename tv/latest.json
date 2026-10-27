@@ -1,0 +1,11 @@
+{
+    "platform":  "android_tv",
+    "packageName":  "com.vertv.app",
+    "versionCode":  901,
+    "versionName":  "0.9.1",
+    "minimumSupportedVersionCode":  901,
+    "required":  true,
+    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/v0.9.1/vertv-v0.9.1-update.apk",
+    "sha256":  "6c7d481a5b4b77ac88411b89ec443eb093a9f4d90184bdc704602fe20b3b076a",
+    "fileSizeBytes":  7686308
+}
