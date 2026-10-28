@@ -1,11 +1,12 @@
 {
     "platform":  "vertv_home",
     "packageName":  "com.vertv.home",
-    "versionCode":  10,
-    "versionName":  "0.1.9",
-    "minimumSupportedVersionCode":  10,
+    "versionCode":  11,
+    "versionName":  "0.1.10",
+    "minimumSupportedVersionCode":  11,
     "required":  true,
-    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/vertv-home-v0.1.9/VerTv-Home-0.1.9-OTA.apk",
-    "sha256":  "9addac745f5a0ff6c38be2d60621e29d5a1eda28cfc6dc5509b2f21fb9432a7d",
-    "fileSizeBytes":  681501
+    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/vertv-home-v0.1.10/VerTv-Home-0.1.10-OTA.apk",
+    "sha256":  "85e1ed3038c9560e1df92fb94580cc49a96a7c37696f386688610cf4a73dfcab",
+    "fileSizeBytes":  870029,
+    "releaseNotes":  "VerTv Home: new owner-provided V/play logo without frame on tile, updated launcher icon. Background, tiles, highlighting, update controls and offline access unchanged."
 }
