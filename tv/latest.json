@@ -1,11 +1,11 @@
 {
     "platform":  "android_tv",
     "packageName":  "com.vertv.app",
-    "versionCode":  901,
-    "versionName":  "0.9.1",
-    "minimumSupportedVersionCode":  901,
+    "versionCode":  1020,
+    "versionName":  "0.10.20-TV-QA",
+    "minimumSupportedVersionCode":  1020,
     "required":  true,
-    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/v0.9.1/vertv-v0.9.1-update.apk",
-    "sha256":  "6c7d481a5b4b77ac88411b89ec443eb093a9f4d90184bdc704602fe20b3b076a",
-    "fileSizeBytes":  7686308
+    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/vertv-tv-v0.10.20-qa-20261027/VerTv-TV-0.10.20-QA-signed.apk",
+    "sha256":  "b18305d361efb529d5f47338fa30a8b7855fd6e1233c73b6d08b8aed2020af8b",
+    "fileSizeBytes":  7866728
 }
