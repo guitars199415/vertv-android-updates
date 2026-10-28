@@ -1,12 +1,12 @@
 {
     "platform":  "android_tv",
     "packageName":  "com.vertv.app",
-    "versionCode":  1022,
-    "versionName":  "0.10.22-TV-QA",
-    "minimumSupportedVersionCode":  1022,
+    "versionCode":  1023,
+    "versionName":  "0.10.23-TV-QA",
+    "minimumSupportedVersionCode":  1023,
     "required":  true,
-    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/vertv-tv-v0.10.22-hy300-ui-20261028/VerTv-TV-0.10.22-HY300-UI-QA-signed.apk",
-    "sha256":  "dec1a65119cf7916374f4f6f7a07009211485bc15d52b747f92adc4e2e1a37db",
-    "fileSizeBytes":  7884756,
-    "releaseNotes":  "HY300 Android TV QA: compact layout, D-pad focus and scrolling, full-viewport details and bounded playback startup."
+    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/vertv-tv-v0.10.23-focus-preview-20261028/VerTv-TV-0.10.23-Focus-Preview-QA-signed.apk",
+    "sha256":  "21db5dc7f74096b7ec3205f9a98358a7460bbc138b4338cc9480c69d3aa7d6c6",
+    "fileSizeBytes":  7886372,
+    "releaseNotes":  "Android TV QA: focus-first landscape browsing, two-step Back, subtle blue highlights, muted native trailer previews for direct HTTPS video. HY300 acceptance pending."
 }
