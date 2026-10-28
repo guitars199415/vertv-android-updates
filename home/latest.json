@@ -1,11 +1,11 @@
 {
     "platform":  "vertv_home",
     "packageName":  "com.vertv.home",
-    "versionCode":  6,
-    "versionName":  "0.1.5",
-    "minimumSupportedVersionCode":  6,
+    "versionCode":  7,
+    "versionName":  "0.1.6",
+    "minimumSupportedVersionCode":  7,
     "required":  true,
-    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/vertv-home-v0.1.5/VerTv-Home-0.1.5-OTA.apk",
-    "sha256":  "8cf4385403b8d68c62e6bf23443f2b343ff6cf108630a515dec55464b6cf57d3",
-    "fileSizeBytes":  673309
+    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/vertv-home-v0.1.6/VerTv-Home-0.1.6-OTA.apk",
+    "sha256":  "cf56e925541a838e877fa1577d0d8ea31ea42102749172d94455ba50303857fd",
+    "fileSizeBytes":  681501
 }
