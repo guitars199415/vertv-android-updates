@@ -1,12 +1,12 @@
 {
     "platform":  "android_tv",
     "packageName":  "com.vertv.app",
-    "versionCode":  1021,
-    "versionName":  "0.10.21-TV-QA",
-    "minimumSupportedVersionCode":  1021,
+    "versionCode":  1022,
+    "versionName":  "0.10.22-TV-QA",
+    "minimumSupportedVersionCode":  1022,
     "required":  true,
-    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/vertv-tv-v0.10.21-update-fix-20261027/VerTv-TV-0.10.21-Update-Fix-signed.apk",
-    "sha256":  "01719da2fdd6031ca01026e6803cd111cf17759840739520722af5f66c0ab86f",
-    "fileSizeBytes":  7868372,
-    "releaseNotes":  "Android TV QA: fixes trusted update source validation; compact redesigned navigation and D-pad focus."
+    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/vertv-tv-v0.10.22-hy300-ui-20261028/VerTv-TV-0.10.22-HY300-UI-QA-signed.apk",
+    "sha256":  "dec1a65119cf7916374f4f6f7a07009211485bc15d52b747f92adc4e2e1a37db",
+    "fileSizeBytes":  7884756,
+    "releaseNotes":  "HY300 Android TV QA: compact layout, D-pad focus and scrolling, full-viewport details and bounded playback startup."
 }
