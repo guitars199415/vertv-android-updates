@@ -1,11 +1,12 @@
 {
     "platform":  "android_tv",
     "packageName":  "com.vertv.app",
-    "versionCode":  1020,
-    "versionName":  "0.10.20-TV-QA",
-    "minimumSupportedVersionCode":  1020,
+    "versionCode":  1021,
+    "versionName":  "0.10.21-TV-QA",
+    "minimumSupportedVersionCode":  1021,
     "required":  true,
-    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/vertv-tv-v0.10.20-qa-20261027/VerTv-TV-0.10.20-QA-signed.apk",
-    "sha256":  "b18305d361efb529d5f47338fa30a8b7855fd6e1233c73b6d08b8aed2020af8b",
-    "fileSizeBytes":  7866728
+    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/vertv-tv-v0.10.21-update-fix-20261027/VerTv-TV-0.10.21-Update-Fix-signed.apk",
+    "sha256":  "01719da2fdd6031ca01026e6803cd111cf17759840739520722af5f66c0ab86f",
+    "fileSizeBytes":  7868372,
+    "releaseNotes":  "Android TV QA: fixes trusted update source validation; compact redesigned navigation and D-pad focus."
 }
