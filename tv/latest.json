@@ -1,12 +1,12 @@
 {
     "platform":  "android_tv",
     "packageName":  "com.vertv.app",
-    "versionCode":  1025,
-    "versionName":  "0.10.25-TV-QA",
-    "minimumSupportedVersionCode":  1025,
+    "versionCode":  1027,
+    "versionName":  "0.10.27-TV-QA",
+    "minimumSupportedVersionCode":  1027,
     "required":  true,
-    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/vertv-tv-v0.10.25-fast-signin-20261028/VerTv-TV-0.10.25-Fast-SignIn-QA-signed.apk",
-    "sha256":  "0c308834983cc4d023617c1de4e8b3c2c53866b1419e71caf0711e200255d87f",
+    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/vertv-tv-v0.10.27-https-phone-20261028/VerTv-TV-0.10.27-QR-HTTPS-QA-signed.apk",
+    "sha256":  "a9561b373f0ffd689c8c39c25e0d6b7a34726aaaf117e8b9884f9319879661bc",
     "fileSizeBytes":  7961924,
-    "releaseNotes":  "VerTv Android TV QA: secure phone/QR pairing, two sign-in modes, D-pad English/Spanish and easy email/password clear; no signup. In-place update preserves app data. Real projector acceptance pending."
+    "releaseNotes":  "VerTv Android TV QA: camera-compatible HTTPS phone/QR pairing, two sign-in modes, D-pad English/Spanish and easy email/password clear; no signup. In-place update preserves app data. Real projector acceptance pending."
 }
