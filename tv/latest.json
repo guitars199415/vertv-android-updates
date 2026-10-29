@@ -1,12 +1,12 @@
 {
     "platform":  "android_tv",
     "packageName":  "com.vertv.app",
-    "versionCode":  1030,
-    "versionName":  "0.10.30-TV-QA",
-    "minimumSupportedVersionCode":  1030,
+    "versionCode":  1031,
+    "versionName":  "0.10.31-TV-QA",
+    "minimumSupportedVersionCode":  1031,
     "required":  true,
-    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/vertv-tv-v0.10.30-compact-signin-20261028/VerTv-TV-0.10.30-Compact-SignIn-QA-signed.apk",
-    "sha256":  "f8aae88f814c75340952fa0b1d7624d4a48238910c9fdac8c60b5ef7c07d8791",
+    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/vertv-tv-v0.10.31-signin-20261029/VerTv-TV-0.10.31-Compact-Login-QA-signed.apk",
+    "sha256":  "deacb241cd9ad8e84f3f942178ba399b860cdfe10c391aa731e78c2ffe931cda",
     "fileSizeBytes":  7961920,
-    "releaseNotes":  "Mandatory TV 0.10.30 QA: centered compact remote sign-in at 720p, room for email/password and language, rendered HTTPS QR pairing via GitHub Pages, open VerTv mobile app from QR, no sign-up. Signed in-place update retains session data."
+    "releaseNotes":  "Mandatory TV 0.10.30 QA: smaller centered remote sign-in at 720p, room for email/password and language, rendered HTTPS QR pairing via GitHub Pages, open VerTv mobile app from QR, no sign-up. Signed in-place update retains session data."
 }
