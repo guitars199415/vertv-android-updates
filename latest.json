@@ -1,15 +1,14 @@
 {
     "platform":  "android",
     "app":  "VerTv",
-    "versionName":  "0.9.76",
-    "versionCode":  976,
-    "required":  true,
-    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/v0.9.76/vertv-v0.9.76-update.apk",
-    "sha256":  "a03c61e27a09f81be40c02885d43f2245d566683632b75bbbfb25403c5997559",
     "packageName":  "com.vertv.app",
-    "fileSizeBytes":  7819108,
-    "releaseNotes":  "Mandatory VerTv 0.9.76: subtle left-and-bottom poster fade in the separate horizontally swipeable Top 10 shelf, improving contrast behind the white outlined ranking numbers while preserving full-color artwork. Featured carousel, content routes, ranking, and playback are unchanged. 373 Android unit tests and two targeted emulator Compose tests passed (fade contrast and manual swipe/navigation). Isolated local artwork was used for UI QA; signed-in real-catalog Home and physical Samsung playback are pending.",
-    "releaseNotesEs":  "Actualizacion obligatoria VerTv 0.9.76: suave degradado oscuro a la izquierda y abajo de los carteles en Top 10, destacando los numeros blancos con contorno sin quitar viveza a las imagenes. No cambia el carrusel principal, las rutas, el orden ni la reproduccion. Pasaron 373 pruebas unitarias y dos pruebas de interfaz Compose en el emulador (contraste y desplazamiento manual). Las capturas usaron imagenes locales de prueba; falta comprobar Inicio con sesion, catalogo real y Samsung fisico.",
-    "sourceCommit":  "61f7e90e920c7b16c840ec94d29594af2ba791d5",
-    "publishedAt":  "2026-10-18T21:40:40Z"
+    "versionCode":  1026,
+    "versionName":  "0.10.26-Mobile-QA",
+    "minimumSupportedVersionCode":  1026,
+    "required":  true,
+    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/vertv-mobile-v0.10.26-phone-pair-20261028/VerTv-Mobile-0.10.26-PairTV-QA-signed.apk",
+    "sha256":  "6996a182cda40268acdf02597515081725105b35472593176a1cdd39d4ad6a2f",
+    "fileSizeBytes":  7961920,
+    "releaseNotes":  "VerTv Android mobile QA: Pair a TV from My VerTv or QR deep link; explicit code approval from signed-in phone. No signup. In-place signed upgrade keeps encrypted session storage.",
+    "releaseNotesEs":  "VerTv: vincular TV con codigo QR y aprobar inicio de sesion desde la app; actualizacion firmada sin borrar datos."
 }
