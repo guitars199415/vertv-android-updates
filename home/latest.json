@@ -1,12 +1,12 @@
 {
     "platform":  "vertv_home",
     "packageName":  "com.vertv.home",
-    "versionCode":  13,
-    "versionName":  "0.1.12",
-    "minimumSupportedVersionCode":  13,
+    "versionCode":  14,
+    "versionName":  "0.1.13",
+    "minimumSupportedVersionCode":  14,
     "required":  true,
-    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/vertv-home-v0.1.12/VerTv-Home-0.1.12-OTA.apk",
-    "sha256":  "a16eb26329dd935e6a64f9c9c5496f26c1dc979c69752e5895b0c140998df7a0",
-    "fileSizeBytes":  870029,
-    "releaseNotes":  "VerTv Home 0.1.12: approved four-tile 2x2 launcher, blue focus, original dark background, current V/play logo, fixed footer and refresh. HDMI, Quick Share and Settings remain available when offline."
+    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/vertv-home-v0.1.13/VerTv-Home-0.1.13-OTA.apk",
+    "sha256":  "9778c177ee13bc9bfa685fda75cfd0a4691e295e0eee418737684fae223bf0d3",
+    "fileSizeBytes":  874293,
+    "releaseNotes":  "VerTv Home 0.1.12: approved three-tile horizontal launcher with Bluetooth, Wi-Fi, clock/date top pills, blue focus, original dark background, current V/play logo, fixed footer and refresh. HDMI, Quick Share and Settings remain available when offline."
 }
