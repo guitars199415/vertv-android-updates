@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pair your TV | VerTv</title><meta name="color-scheme" content="dark">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'; frame-ancestors 'none';">
+<style>
+*{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;background:radial-gradient(circle at 18% 95%,#0d377d 0,#050a16 65%);font:16px system-ui,-apple-system,Segoe UI,sans-serif;color:#f6f9fe;padding:20px}
+main{width:100%;max-width:420px;background:#0b1424;border:1px solid #35506a;border-radius:22px;padding:30px 24px;text-align:center}
+.logo{font-size:25px;font-weight:800;letter-spacing:.02em}.logo b{color:#249fff}
+h1{margin:26px 0 10px;font-size:25px}p{color:#c7d5e7;line-height:1.5}
+.code{font-size:30px;font-weight:800;letter-spacing:.12em;padding:22px 0}
+a{display:block;text-align:center;text-decoration:none;padding:14px 16px;border-radius:10px;font-weight:700;margin:10px 0}
+.primary{background:#1379e8;color:white}.secondary{border:1px solid #516b88;color:#f5f9ff;background:#142338}
+.note{font-size:13px;margin-top:25px;text-align:left;color:#b9cae0}
+</style></head><body><main>
+<div class="logo">Ver<b>Tv</b></div><h1>Connect your TV</h1><p>Open VerTv on your phone. Sign in if needed, then approve the matching code.</p>
+<div class="code" id="code">--------</div>
+<a id="open" class="primary" href="#">Open VerTv app</a>
+<a id="fallback" class="secondary" href="#">Try opening VerTv another way</a>
+<p class="note">If the app does not open automatically: open VerTv manually, then My VerTv → Pair a TV. Enter the code above. Only approve a code you recognize. Codes expire after five minutes.</p>
+</main><script>
+(function(){
+  const code = new URLSearchParams(location.search).get('code') || '';
+  if(!/^\d{4}-\d{4}$/.test(code)){document.querySelector('h1').textContent='Invalid TV code';document.querySelector('.code').textContent='';document.querySelector('#open').style.display='none';document.querySelector('#fallback').style.display='none';return}
+  document.querySelector('.code').textContent=code;
+  document.querySelector('#open').href='intent://pair?code='+encodeURIComponent(code)+'#Intent;scheme=vertv;package=com.vertv.app;end';
+  document.querySelector('#fallback').href='vertv://pair?code='+encodeURIComponent(code);
+})()
+</script></body></html>
