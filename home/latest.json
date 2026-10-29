@@ -1,12 +1,12 @@
 {
     "platform":  "vertv_home",
     "packageName":  "com.vertv.home",
-    "versionCode":  11,
-    "versionName":  "0.1.10",
-    "minimumSupportedVersionCode":  11,
+    "versionCode":  13,
+    "versionName":  "0.1.12",
+    "minimumSupportedVersionCode":  13,
     "required":  true,
-    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/vertv-home-v0.1.10/VerTv-Home-0.1.10-OTA.apk",
-    "sha256":  "85e1ed3038c9560e1df92fb94580cc49a96a7c37696f386688610cf4a73dfcab",
+    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/vertv-home-v0.1.12/VerTv-Home-0.1.12-OTA.apk",
+    "sha256":  "a16eb26329dd935e6a64f9c9c5496f26c1dc979c69752e5895b0c140998df7a0",
     "fileSizeBytes":  870029,
-    "releaseNotes":  "VerTv Home: new owner-provided V/play logo without frame on tile, updated launcher icon. Background, tiles, highlighting, update controls and offline access unchanged."
+    "releaseNotes":  "VerTv Home 0.1.12: approved four-tile 2x2 launcher, blue focus, original dark background, current V/play logo, fixed footer and refresh. HDMI, Quick Share and Settings remain available when offline."
 }
