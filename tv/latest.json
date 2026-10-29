@@ -1,12 +1,12 @@
 {
     "platform":  "android_tv",
     "packageName":  "com.vertv.app",
-    "versionCode":  1024,
-    "versionName":  "0.10.24-TV-QA",
-    "minimumSupportedVersionCode":  1024,
+    "versionCode":  1025,
+    "versionName":  "0.10.25-TV-QA",
+    "minimumSupportedVersionCode":  1025,
     "required":  true,
-    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/vertv-tv-v0.10.24-hy300-ux-20261028/VerTv-TV-0.10.24-Approved-UI-QA-signed.apk",
-    "sha256":  "6e4fd8934d63f4a3c33082a70e913cc5c5d22b72e6cb950ae47e05002086c378",
-    "fileSizeBytes":  7929024,
-    "releaseNotes":  "Android TV mandatory QA: smaller top-aligned new V/play logo, compact Play CTA, neutral detail focus, refined tabs, centered suspended/deactivated account screens. HY300 acceptance pending."
+    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/vertv-tv-v0.10.25-fast-signin-20261028/VerTv-TV-0.10.25-Fast-SignIn-QA-signed.apk",
+    "sha256":  "0c308834983cc4d023617c1de4e8b3c2c53866b1419e71caf0711e200255d87f",
+    "fileSizeBytes":  7961924,
+    "releaseNotes":  "VerTv Android TV QA: secure phone/QR pairing, two sign-in modes, D-pad English/Spanish and easy email/password clear; no signup. In-place update preserves app data. Real projector acceptance pending."
 }
