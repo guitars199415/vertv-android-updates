@@ -10,19 +10,29 @@ h1{margin:26px 0 10px;font-size:25px}p{color:#c7d5e7;line-height:1.5}
 .code{font-size:30px;font-weight:800;letter-spacing:.12em;padding:22px 0}
 a{display:block;text-align:center;text-decoration:none;padding:14px 16px;border-radius:10px;font-weight:700;margin:10px 0}
 .primary{background:#1379e8;color:white}.secondary{border:1px solid #516b88;color:#f5f9ff;background:#142338}
-.note{font-size:13px;margin-top:25px;text-align:left;color:#b9cae0}
+button{display:block;width:100%;font:inherit;cursor:pointer;padding:14px 16px;border-radius:10px;font-weight:700;margin:10px 0}.note{font-size:13px;margin-top:25px;text-align:left;color:#b9cae0}
 </style></head><body><main>
 <div class="logo">Ver<b>Tv</b></div><h1>Connect your TV</h1><p>Open VerTv on your phone. Sign in if needed, then approve the matching code.</p>
 <div class="code" id="code">--------</div>
 <a id="open" class="primary" href="#">Open VerTv app</a>
-<a id="fallback" class="secondary" href="#">Try opening VerTv another way</a>
+<button id="copy" class="secondary" type="button">Copy TV code</button>
+<a id="upgrade" class="secondary" href="https://github.com/guitars199415/vertv-android-updates/releases/download/vertv-mobile-v0.10.28-phone-qr-20261028/VerTv-Mobile-0.10.28-Phone-Pair-QA-signed.apk">Update VerTv Android app (required)</a>
+<p class="note">Phone pairing requires VerTv mobile 0.10.28 or newer. Older installed versions cannot open a TV code from this page. Update the existing app without uninstalling it, then scan a fresh QR code.</p>
+<p id="hint" role="status" aria-live="polite" class="note"></p>
 <p class="note">If the app does not open automatically: open VerTv manually, then My VerTv → Pair a TV. Enter the code above. Only approve a code you recognize. Codes expire after five minutes.</p>
 </main><script>
 (function(){
   const code = new URLSearchParams(location.search).get('code') || '';
-  if(!/^\d{4}-\d{4}$/.test(code)){document.querySelector('h1').textContent='Invalid TV code';document.querySelector('.code').textContent='';document.querySelector('#open').style.display='none';document.querySelector('#fallback').style.display='none';return}
+  if(!/^\d{4}-\d{4}$/.test(code)){document.querySelector('h1').textContent='Invalid TV code';document.querySelector('.code').textContent='';document.querySelector('#open').style.display='none';document.querySelector('#copy').style.display='none';return}
   document.querySelector('.code').textContent=code;
-  document.querySelector('#open').href='intent://pair?code='+encodeURIComponent(code)+'#Intent;scheme=vertv;package=com.vertv.app;end';
-  document.querySelector('#fallback').href='vertv://pair?code='+encodeURIComponent(code);
+  document.querySelector('#open').href='vertv://pair?code='+encodeURIComponent(code);
+  document.querySelector('#open').addEventListener('click',function(){
+    document.querySelector('#hint').textContent='If VerTv did not open, update the installed VerTv app using the link above, or enter this code in My VerTv / Pair a TV.';
+  });
+  document.querySelector('#copy').addEventListener('click',async function(){
+    try{await navigator.clipboard.writeText(code);
+      document.querySelector('#hint').textContent='Code copied. Open VerTv and select My VerTv / Pair a TV.';
+    }catch(e){document.querySelector('#hint').textContent='Enter the code shown above in My VerTv / Pair a TV.';}
+  });
 })()
 </script></body></html>
