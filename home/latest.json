@@ -1,12 +1,12 @@
 {
     "platform":  "vertv_home",
     "packageName":  "com.vertv.home",
-    "versionCode":  16,
-    "versionName":  "0.1.15",
-    "minimumSupportedVersionCode":  16,
+    "versionCode":  18,
+    "versionName":  "0.1.17",
+    "minimumSupportedVersionCode":  18,
     "required":  true,
-    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/vertv-home-v0.1.15/VerTv-Home-0.1.15-OTA.apk",
-    "sha256":  "8270b4238224cb507fdd94fc77203a1c435ce23b6486e540cf892339579d17fe",
-    "fileSizeBytes":  882485,
-    "releaseNotes":  "Mandatory Home launcher 0.1.14: bilingual first-run setup wizard with optional accessibility/clock/weather, original V/play brand, cleaner HDMI and Quick Share symbols, no double-focus square, in-app Bluetooth scan and bonding panel, preserve offline HDMI/Quick Share access. Android updates preserve data."
+    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/vertv-home-v0.1.17/VerTv-Home-0.1.17-OTA.apk",
+    "sha256":  "0459ea94dfa6c32597d11565d368c9514774a1115442539bd8154414bcda8b5e",
+    "fileSizeBytes":  886581,
+    "releaseNotes":  "VerTv Home 0.1.17 QA: Bluetooth scan permission flow, adaptive toggle text, post-install restart attempt. Physical HY300 acceptance still pending."
 }
