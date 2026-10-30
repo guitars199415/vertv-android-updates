@@ -2,13 +2,13 @@
     "platform":  "android",
     "app":  "VerTv",
     "packageName":  "com.vertv.app",
-    "versionCode":  1028,
-    "versionName":  "0.10.28-Mobile-QA",
-    "minimumSupportedVersionCode":  1028,
+    "versionCode":  1033,
+    "versionName":  "0.10.33-TV-Bundle-QA",
+    "minimumSupportedVersionCode":  1033,
     "required":  true,
-    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/vertv-mobile-v0.10.28-phone-qr-20261028/VerTv-Mobile-0.10.28-Phone-Pair-QA-signed.apk",
-    "sha256":  "81644c07cd9bd7f400e49f2b395d923259e1a452a363136ff7b65fef093128fe",
-    "fileSizeBytes":  7961920,
-    "releaseNotes":  "VerTv Android mobile QA: Open VerTv from HTTPS QR and Pair a TV after sign-in; explicit code approval from signed-in phone. No signup. In-place signed upgrade keeps encrypted session storage.",
-    "releaseNotesEs":  "VerTv: vincular TV con codigo QR y aprobar inicio de sesion desde la app; actualizacion firmada sin borrar datos."
+    "apkUrl":  "https://github.com/guitars199415/vertv-android-updates/releases/download/vertv-tv-v0.10.33-bundle-20261030/VerTv-Android-0.10.33-TV-Mobile-UI-QA-signed.apk",
+    "sha256":  "604e7a6d365a8382461d142ffe8db5ed0083c1c369600634e852aa67400584f1",
+    "fileSizeBytes":  7961924,
+    "releaseNotes":  "VerTv 0.10.33 QA: Android TV navigation, mobile Home row parity, focus contrast, search and sign-out focus, TV splash. In-place signed mandatory update.",
+    "releaseNotesEs":  "VerTv 0.10.33 QA: navegacion en TV, enfoque visible, secciones de Inicio y pantalla de inicio. Actualizacion obligatoria firmada."
 }
