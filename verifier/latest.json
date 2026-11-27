@@ -1,10 +1,10 @@
 {
   "platform": "verifier",
   "packageName": "com.vertv.deviceqa.verifier",
-  "versionCode": 6,
-  "versionName": "0.1.5-alpha",
-  "apkUrl": "https://github.com/guitars199415/vertv-android-updates/releases/download/verifier-v0.1.5-alpha/verifier-0.1.5-alpha.apk",
-  "sha256": "3359b4913d9abd469f3413fb83d39765798e606b24d2e21672864c717c5fb817",
-  "fileSizeBytes": 2143605,
+  "versionCode": 8,
+  "versionName": "0.1.7-alpha",
+  "apkUrl": "https://github.com/guitars199415/vertv-android-updates/releases/download/verifier-v0.1.7-alpha/verifier-0.1.7-alpha.apk",
+  "sha256": "0ddfc265cadbc4e4fe6b9c8d9d5bc81eb26f66459bd78184a456a3ea17b4fed3",
+  "fileSizeBytes": 2155893,
   "required": false
 }
