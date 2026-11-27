@@ -1,0 +1,10 @@
+{
+  "platform": "verifier",
+  "packageName": "com.vertv.deviceqa.verifier",
+  "versionCode": 5,
+  "versionName": "0.1.4-alpha",
+  "apkUrl": "https://github.com/guitars199415/vertv-android-updates/releases/download/verifier-v0.1.4-alpha/verifier-0.1.4-alpha.apk",
+  "sha256": "5bdb4dea47fb061338d2a0a789c3922bce4682b502ef5a5fa0ddce1ac29b6156",
+  "fileSizeBytes": 2139509,
+  "required": false
+}
